@@ -13,6 +13,7 @@ return {
       typescript = { "ts_ls" },
       javascriptreact = { "ts_ls" },
       typescriptreact = { "ts_ls" },
+      python = { "pyright" },
     }
 
     -- Auto-start LSP servers based on filetype

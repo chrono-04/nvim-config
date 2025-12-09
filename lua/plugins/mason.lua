@@ -11,6 +11,7 @@ return {
         "cssls",
         "ts_ls",
         "emmet_ls",
+        "pyright",
       },
       automatic_installation = true,
     })
