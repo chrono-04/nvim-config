@@ -1,9 +1,9 @@
 vim.opt.number = true -- show relative line numbers
 vim.opt.cursorline = true -- show line under cursor
 vim.opt.expandtab = true -- convert tabs into spaces
-vim.opt.shiftwidth = 4 -- amount of space to indent
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 2 -- amount of space to indent
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2 
 vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.autoindent = true
