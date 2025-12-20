@@ -12,7 +12,7 @@ local function start_and_open(browser_cmd, port)
 end
 
 vim.keymap.set("n", "<leader>of", function() start_and_open("firefox", 5555) end, {desc = "Open localhost:5555 in Firefox"})
-vim.keymap.set("n", "<leader>oc", function() start_and_open("google-chrome", 5555) end, {desc = "Open localhost:5555 in Chrome"})
+vim.keymap.set("n", "<leader>oc", function() start_and_open("google-chrome-stable", 5555) end, {desc = "Open localhost:5555 in Chrome"})
 vim.keymap.set("n", "<leader>oz", function() start_and_open("zen-browser", 5555) end, {desc = "Open localhost:5555 in Zen"})
 vim.keymap.set("n", "<leader>cs", "<cmd>LiveServerStop<CR>", {desc = "Stop Live Server"})
 
