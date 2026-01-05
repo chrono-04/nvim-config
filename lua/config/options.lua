@@ -8,6 +8,7 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.autoindent = true
 vim.opt.signcolumn = "yes"
+vim.opt.backupcopy = "yes"
 
 -- case-sensitive searching UNLESS \c or one or
 -- more capital letters in the search term
